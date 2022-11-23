@@ -1,0 +1,77 @@
+
+body{
+    margin:0;
+    background-image: url(/photos/background\ photos.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+}
+#container{
+    background-size:cover;
+    font-family: 'Hanuman', serif;
+}
+   
+header{
+    width:100vw;
+    height:10vw;
+}
+#nav{
+    margin-top:0;
+    background-color: rgba(0, 0, 0, 0.404);
+    border:2px;
+    float:right;
+    padding-bottom:1vw;
+    width:100vw;
+    position:relative;
+    display:flex;
+}
+#nav ul{
+    float:right;
+}
+#nav a li{
+    list-style-type: none;
+    display:inline;
+    float:left;
+    margin-right:10vw;
+    font-weight: bold;
+    font-size:20px;
+    padding-left:4vw ;
+    margin-top:1vw;
+    margin-left:3vw;
+    color:white;
+}
+
+#logo img{
+    margin-left:20px;
+    padding-top:1vw;
+    height:3.5vw;
+    width:5vw;
+}
+#main{
+    height:30vw;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.404);
+    margin-top:10vw;
+    position:absolute;
+    font-size:40px;
+    display:inline;
+}
+#main p{
+    margin-left:20px;
+}
+footer{
+    height:5vw;
+    width:100%;
+    background-color: rgba(192, 151, 151, 0);
+    margin-top:39vw;
+    position:absolute;
+    color:black;
+    text-align:right;
+    margin-left:-2vw;
+}
+.box{
+    display:inline;
+}
